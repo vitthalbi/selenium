@@ -35,6 +35,7 @@ public class ActiTime_Xpath {
 	driver.findElement(By.xpath("//a[text()='Logout']")).click();
 	//driver.findElement(By.xpath("//input[@value='Cancel the process']")).click();
 	//driver.quit();
+	
 	}
 
 }

@@ -28,7 +28,7 @@ public class Working_with_contextClick {
 		
 		//create an object of Actions class
 		Actions act= new Actions(driver);
-		
+		//use context method
 		act.contextClick(rightclick).perform();
 		
 		
