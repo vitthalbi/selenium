@@ -16,7 +16,7 @@ public class Working_with_javaScriptExecutor {
 		//use implicit wait
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		// Launch the web application
-		driver.get("https://www.netflix.com/in/");
+		driver.get("https://www.google.com/search?q=jiocinema");
 		//here we are doing explicit type casting
 		JavascriptExecutor js= (JavascriptExecutor) driver;
 		js.executeScript("window.scroll(0,3000);");
