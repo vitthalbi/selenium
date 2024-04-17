@@ -1,4 +1,4 @@
-package POM;
+package Modular_Driven_Framework;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;

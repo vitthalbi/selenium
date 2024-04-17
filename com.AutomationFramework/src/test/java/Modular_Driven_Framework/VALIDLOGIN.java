@@ -1,4 +1,4 @@
-package POM;
+package Modular_Driven_Framework;
 
 import java.io.IOException;
 
@@ -11,7 +11,7 @@ public class VALIDLOGIN extends BaseTest{
 		FLib lib = new FLib();
 		lp.VALIDLOGIN(lib.getDataFromProperty(PROP_PATH, "username"),lib.getDataFromProperty(PROP_PATH, "password"));
           test.createuser();
-          test.createTask();
+         
 	
 		
 		

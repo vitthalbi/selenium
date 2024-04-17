@@ -1,5 +1,5 @@
 
-package POM;
+package Modular_Driven_Framework;
 
 import java.io.FileInputStream;
 import java.io.IOException;

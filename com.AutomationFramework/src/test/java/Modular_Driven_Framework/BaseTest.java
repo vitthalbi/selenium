@@ -1,4 +1,4 @@
-package POM;
+package Modular_Driven_Framework;
 
 import java.io.IOException;
 import java.time.Duration;
@@ -76,19 +76,6 @@ public class BaseTest implements IAutoConstant {
    	}
     
 
-    public void createTask() throws InterruptedException
-   	{
-   		driver.findElement(By.xpath("(//img[@src='/img/default/pixel.gif?hash=1692528820'])[4]")).click();
-   	//cancel this process
-   		driver.findElement(By.xpath("//input[@id='DiscardChangesButton']")).click();
-   		//click on create task link
-   		driver.findElement(By.xpath("//a[text()='Create new tasks']")).click();
-   		//click on select customer text field
-   		WebElement dropdown = driver.findElement(By.xpath("//select[@name='customerId']"));
-   		Select s = new Select(dropdown);
-   		Thread.sleep(2000);
-   		s.selectByValue("1");
-   	} 
 	
 	
     public void logout()
