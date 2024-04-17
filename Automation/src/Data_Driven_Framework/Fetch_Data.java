@@ -7,9 +7,10 @@ import java.util.Properties;
 public class Fetch_Data {
 	
 	public static void main(String[] args) throws IOException {
-		
+		//crate an object of FileInputStream class
 		FileInputStream fis = new FileInputStream("./TestData/CommonData.properties");
 		
+		//crate an object of Properties Class
 		Properties prop= new Properties();
 		prop.load(fis);
 		
@@ -24,12 +25,12 @@ public class Fetch_Data {
 
 	String password = prop.getProperty("password");
 
-System.out.println(password);
+     System.out.println(password);
 
 
-String DOB = prop.getProperty("DOB");
+     String DOB = prop.getProperty("DOB");
 
-System.out.println(DOB);
+      System.out.println(DOB);
 	}
 
 }
