@@ -6,7 +6,6 @@ import java.awt.event.KeyEvent;
 import java.time.Duration;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
@@ -26,6 +25,7 @@ public class Robot_Class_Assingment {
 		copy.keyPress(KeyEvent.VK_CONTROL);
 		copy.keyPress(KeyEvent.VK_A);
 		copy.keyPress(KeyEvent.VK_C);
+		copy.keyPress(KeyEvent.VK_V);
 		
 		//to release
 		copy.keyRelease(KeyEvent.VK_CONTROL);

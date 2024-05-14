@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="BatchExcutaion.DemoWebApp_Assingment"/>
+      <class name="BatchExcutaion.Swiggy_Assignment_Locators"/>
+      <class name="BatchExcutaion.Paytm_Xpath_Locator"/>
+      <class name="BatchExcutaion.Facebook_Account_Create_Assignment"/>
+      <class name="BatchExcutaion.Insatagram_With_Locators"/>
+      <class name="BatchExcutaion.airvistara_Assignment"/>
+      <class name="BatchExcutaion.Zomato_Add_Suger"/>
+      <class name="BatchExcutaion.SetDimension_SetPosition_Method"/>
+      <class name="BatchExcutaion.Naukri_Com_Assignment"/>
+      <class name="BatchExcutaion.FaceBook_Assignment_Locator"/>
+      <class name="BatchExcutaion.Setposition_Method"/>
+      <class name="BatchExcutaion.GetSize_method"/>
+      <class name="BatchExcutaion.Netflix_Assignment_Xpath_Locatros"/>
+      <class name="BatchExcutaion.Paytm"/>
+      <class name="BatchExcutaion.Myntra_Assingment"/>
+      <class name="BatchExcutaion.Demo_Web_Shop_Locators"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
